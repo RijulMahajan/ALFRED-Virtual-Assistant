@@ -150,9 +150,9 @@ if __name__ == "__main__":
             print("The date is {}".format(today))
             speak("The date is {}".format(today))
         
-        # elif 'code' in query:
-        #     codePath = r"C:\Users\Riya\AppData\Local\Programs\Microsoft VS Code\Code.exe"
-        #     os.startfile(codePath)
+         elif 'code' in query:
+             codePath = r"your file location"
+             os.startfile(codePath)
  
         elif "weather" in query:
             api_key="8ef61edcf1c576d65d836254e11ea420"
